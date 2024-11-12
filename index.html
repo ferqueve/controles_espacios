@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles de Espacios Reducidos en Web</title>
+    <!-- CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-4">
+        <!-- Navegación de diapositivas -->
+        <div class="navigation mb-4">
+            <button class="btn btn-primary" onclick="prevSlide()">
+                <i class="fas fa-chevron-left"></i> Anterior
+            </button>
+            <span id="slideCounter" class="mx-3">1/5</span>
+            <button class="btn btn-primary" onclick="nextSlide()">
+                Siguiente <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Contenedor de diapositivas -->
+        <div id="slides" class="slides-container">
+            <!-- Se cargará dinámicamente desde slides.js -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="slides.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

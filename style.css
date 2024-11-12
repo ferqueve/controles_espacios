@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navegación */
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#slideCounter {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Contenedor de diapositivas */
+.slides-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    min-height: 500px;
+}
+
+/* Diapositivas */
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+/* Contenido */
+.slide-content {
+    padding: 40px 20px;
+}
+
+.slide-content ul {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.slide-content li {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+/* Ejemplos de código */
+.code-example {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+}
+
+code {
+    color: #d63384;
+}
+
+/* Demo de componentes */
+.demo-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+/* Tabs específicos */
+.nav-tabs {
+    margin-bottom: 15px;
+}
+
+.tab-content {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
